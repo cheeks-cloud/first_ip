@@ -3,36 +3,33 @@
     margin: 0%;
     padding: 0%
 }
-
-.class{
-    background: comic-gradient(white 0deg 180deg,rgb(245,150,27) 180deg 360deg);
+.start{
+    background: conic-gadient(white 0deg 180deg ,orange 180deg 360deg);
+    display: flex;
 }
-#one{
-    margin-left: 1450px;
-    height: 350%;
+h1{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 200px;
+    margin-top: 100px;
+    max-width: 43px;
     
 }
+
+#fog{
+    font-weight: 700;
+    margin-left: 200px;
+    margin-top: 130px;
+}
 .bot{
-    display: block;
-    background: rgb(245, 150, 27);
+    display:block;
+    background:orange;
     color: black;
     width: max-content;
     height: 10%;
     font-weight: bold;
     padding: 10px;
-    margin-left: 70px;
-}
-h1{
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 20px;
-    max-width: 33%;
-}
-p{
-    font-weight: 500;
-    max-width: 28%;
-    margin-left: 20px;
-
+    margin-left: 10px;
 }
 nav{
     font-size: medium;
@@ -48,14 +45,36 @@ nav{
 .fiesta{
     border-style: solid;
     border-radius: 20px;
+    border-color: slategray;
     margin: 15px;
     width: 30%;
     text-align: center;
     display: inline-block;
 }
+.go{
+    color: sandybrown;
+}
+.middle,h2{
+    color:rgb(78, 0, 0) ;
+}
+.para{
+    text-align: center;
+}
+.menu{
+background-color: white;
+}
+.menu,span{
+    text-align: center;
+    font-weight: bolder;
+
+}
+p{
+    text-align: center;
+}
 .achieve{
     text-align: center;
     display: inline-block;
+    border-color:gray;
     margin: 10px;
     height: 70%;
     width: 28%;
@@ -63,99 +82,89 @@ nav{
     border-radius: 20px;
     padding-left: 48px;
 }
-.fiesta,h2{
-    color:rgb(78, 0, 0) ;
-}
-.fiesta,p{
-    text-align: center;
-    color: black;
-    margin-left: 68pxpx;
-
-}
-.hardly{
-    margin-left: 1150px;
-}
-.menu{
-    background-color: white;
-}
-.menu,h2{
-    text-align: center;
-    color:rgb(73, 5, 5);
-}
-.menu,#main{
-    color: chocolate;
-}
 .down{
     background-color: whitesmoke;
+    display: flex;
+
 }
 #best{
     font-weight: bolder;
     font-size: x-larger;
     color: black;
-    margin-left: 28px;
-}
-#sem{
-    margin-left:1350px;
+    margin-left: 98px;
 }
 h4{
-    font-size: xx-large;
-    font-weight: bold;
-    color:rgb(247, 163, 9);
     margin-left: 28px;
+    font-weight: bolder;
+}
+
+.hard{
+   position: absolute;
+   top: 0;
+   left: 20;
+   z-index: auto;
+
+}
+.harder{
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 10px;
+    margin-right: 120px;
 }
 .last{
     background-color: orange;
-}
-#you{
-
-margin-left: 970px;
-
-}
-#twit{
-    margin-left: 920px;
-}
-
-#inst{
-    margin-left: 870px;
-}
-
-#face{
-    margin-left: 800px;
-}
-/*
-.kulia{
-    background-color: whitesmoke;
-}
-.mans{
-    margin-left: 450px;
-    font-weight: 600;
-
-}
-
-.lasts {
-    background-color: white;
-
-}
-#sam{
-    text-align: right;
-
-    margin-left: 1300px;
+    display: flex;
 }
 #mm{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 1000;
     font-size: xx-large;
 }
-#ref{
-    margin-bottom: 0;
+.sem{
+    flex: 53.3%;
+    padding: 33px;
 }
-#hi{
-    margin-left: 900px;
+.semi{
+    padding: 5px;
+    flex: 93.3%;
+    margin: 98px;
+    height: 80px;
+}
+.kulia{
+    background-color: whitesmoke;
+}
+.mans{
+    margin-left: 450px;
+    font-weight: 600;
 }
 #man{
     font-weight: 900;
-    font-size: 1em;
-}/*
+    font-size: 1.5em;
+}
+
+.lasts {
+    background-color: white;
+
+}
+.home{
+    margin-right: 140px;
+    padding: 0;
+}
+#sam{
+    text-align: right;
+    margin-left: 1300px;
+}
+
+#ref{
+    text-align: left;
+    margin-bottom: 0;
+    margin-right: 1300px;
+}
+
+
+
+
 
 
 

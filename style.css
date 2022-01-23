@@ -63,7 +63,7 @@ nav{
     border-radius: 20px;
     padding-left: 48px;
 }
-/*.fiesta,h2{
+.fiesta,h2{
     color:rgb(78, 0, 0) ;
 }
 .fiesta,p{
@@ -88,7 +88,7 @@ nav{
 .down{
     background-color: whitesmoke;
 }
-#best{
+/*#best{
     font-weight: bolder;
     font-size: x-larger;
     color: black;

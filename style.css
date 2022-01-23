@@ -88,7 +88,7 @@ nav{
 .down{
     background-color: whitesmoke;
 }
-/*#best{
+#best{
     font-weight: bolder;
     font-size: x-larger;
     color: black;
@@ -97,7 +97,7 @@ nav{
 #sem{
     margin-left:1350px;
 }
-h4{
+/*h4{
     font-size: xx-large;
     font-weight: bold;
     color:rgb(247, 163, 9);

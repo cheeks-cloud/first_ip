@@ -28,7 +28,7 @@ h1{
     margin-left: 20px;
     max-width: 33%;
 }
-/*p{
+p{
     font-weight: 500;
     max-width: 28%;
     margin-left: 20px;
@@ -45,7 +45,7 @@ nav{
 .middle{
     background-color: whitesmoke;
 }
-.fiesta{
+/*.fiesta{
     border-style: solid;
     border-radius: 20px;
     margin: 15px;

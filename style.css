@@ -70,6 +70,7 @@ h1{
 .para{
     text-align: center;
     padding:20px;
+    text-overflow: auto;
 }
 .menu{
 background-color: white;

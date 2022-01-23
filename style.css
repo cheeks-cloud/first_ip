@@ -45,7 +45,7 @@ nav{
 .middle{
     background-color: whitesmoke;
 }
-/*.fiesta{
+.fiesta{
     border-style: solid;
     border-radius: 20px;
     margin: 15px;
@@ -63,7 +63,7 @@ nav{
     border-radius: 20px;
     padding-left: 48px;
 }
-.fiesta,h2{
+/*.fiesta,h2{
     color:rgb(78, 0, 0) ;
 }
 .fiesta,p{

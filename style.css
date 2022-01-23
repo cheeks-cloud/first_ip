@@ -4,22 +4,26 @@
     padding: 0%
 }
 .start{
-    background: conic-gadient(white 0deg 180deg ,orange 180deg 360deg);
+    background-image:linear-gradient(to right,white,orange);
     display: flex;
+}
+#one{
+margin-left: 200%;
 }
 h1{
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 200px;
-    margin-top: 100px;
-    max-width: 43px;
+    margin-top: 20px;
+    max-width: 23px;
     
 }
 
 #fog{
     font-weight: 700;
-    margin-left: 200px;
-    margin-top: 130px;
+    margin-left: 420px;
+    margin-top: 40px;
+    max-width: 88px;
 }
 .bot{
     display:block;
@@ -29,14 +33,19 @@ h1{
     height: 10%;
     font-weight: bold;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 150px;
 }
-nav{
+.nav{
     font-size: medium;
     font-weight: bold;
-    display: inline-block;
+    display: inline-flex;
     margin-left: 40%;
     color: black;
+}
+.nav,li{
+    width: 100px;
+    margin-left: 250px;
+    padding: 10px;
 }
     
 .middle{
@@ -50,6 +59,7 @@ nav{
     width: 30%;
     text-align: center;
     display: inline-block;
+    height: 70%;
 }
 .go{
     color: sandybrown;
@@ -59,6 +69,7 @@ nav{
 }
 .para{
     text-align: center;
+    padding:20px;
 }
 .menu{
 background-color: white;
@@ -76,11 +87,11 @@ p{
     display: inline-block;
     border-color:gray;
     margin: 10px;
-    height: 70%;
+    height: 120%;
     width: 28%;
     border-style: solid;
     border-radius: 20px;
-    padding-left: 48px;
+    padding: 38px;
 }
 .down{
     background-color: whitesmoke;
@@ -94,23 +105,15 @@ p{
     margin-left: 98px;
 }
 h4{
-    margin-left: 28px;
+    margin-left: 18px;
     font-weight: bolder;
+    margin-top: 80
 }
 
 .hard{
-   position: absolute;
-   top: 0;
-   left: 20;
-   z-index: auto;
 
 }
 .harder{
-    position: relative;
-    top: 0;
-    left: 0;
-    border: 10px;
-    margin-right: 120px;
 }
 .last{
     background-color: orange;
@@ -148,7 +151,7 @@ h4{
 
 }
 .home{
-    margin-right: 140px;
+    margin-left: 18%;
     padding: 0;
 }
 #sam{

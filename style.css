@@ -103,7 +103,7 @@ h4{
     color:rgb(247, 163, 9);
     margin-left: 28px;
 }
-/*.last{
+.last{
     background-color: orange;
 }
 #you{
@@ -122,6 +122,7 @@ margin-left: 970px;
 #face{
     margin-left: 800px;
 }
+/*
 .kulia{
     background-color: whitesmoke;
 }

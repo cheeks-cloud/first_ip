@@ -1,4 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%
+}
+
+.class{
+    background: comic-gradient(white 0deg 180deg,rgb(245,150,27) 180deg 360deg);
+}
+#one{
+    margin-left: 1450px;
+    height: 350%;
+    
+}
+.bot{
+    display: block;
+    background: rgb(245, 150, 27);
+    color: black;
+    width: max-content;
+    height: 10%;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 70px;
+}
+h1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    max-width: 33%;
+}
+/*p{
+    font-weight: 500;
+    max-width: 28%;
+    margin-left: 20px;
+
+}
 nav{
-    text-align: right;
+    font-size: medium;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 40%;
     color: black;
 }
+    
+.middle{
+    background-color: whitesmoke;
+}
+.fiesta{
+    border-style: solid;
+    border-radius: 20px;
+    margin: 15px;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+}
+.achieve{
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    height: 70%;
+    width: 28%;
+    border-style: solid;
+    border-radius: 20px;
+    padding-left: 48px;
+}
+.fiesta,h2{
+    color:rgb(78, 0, 0) ;
+}
+.fiesta,p{
+    text-align: center;
+    color: black;
+    margin-left: 68pxpx;
+
+}
+.hardly{
+    margin-left: 1150px;
+}
+.menu{
+    background-color: white;
+}
+.menu,h2{
+    text-align: center;
+    color:rgb(73, 5, 5);
+}
+.menu,#main{
+    color: chocolate;
+}
+.down{
+    background-color: whitesmoke;
+}
+#best{
+    font-weight: bolder;
+    font-size: x-larger;
+    color: black;
+    margin-left: 28px;
+}
+#sem{
+    margin-left:1350px;
+}
+h4{
+    font-size: xx-large;
+    font-weight: bold;
+    color:rgb(247, 163, 9);
+    margin-left: 28px;
+}
+.last{
+    background-color: orange;
+}
+#you{
+
+margin-left: 970px;
+
+}
+#twit{
+    margin-left: 920px;
+}
+
+#inst{
+    margin-left: 870px;
+}
+
+#face{
+    margin-left: 800px;
+}
+.kulia{
+    background-color: whitesmoke;
+}
+.mans{
+    margin-left: 450px;
+    font-weight: 600;
+
+}
+
+.lasts {
+    background-color: white;
+
+}
+#sam{
+    text-align: right;
+
+    margin-left: 1300px;
+}
+#mm{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-size: xx-large;
+}
+#ref{
+    margin-bottom: 0;
+}
+#hi{
+    margin-left: 900px;
+}
+#man{
+    font-weight: 900;
+    font-size: 1em;
+}/*
+
+
+
+

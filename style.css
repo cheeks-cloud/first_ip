@@ -9,6 +9,7 @@
 }
 #one{
 margin-left: 200%;
+position: absolute;
 }
 h1{
     font-weight: bolder;

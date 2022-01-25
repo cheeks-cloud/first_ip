@@ -6,6 +6,8 @@
 
 ## Description
 this is my first project in moringa.it is supposed to teach on the basic html and basic css.
+## contact
+email:agneskaswii700@gmail.com
 
 ## setup/installation instructions
 *make sure your online

@@ -4,12 +4,9 @@
     padding: 0%
 }
 .start{
-    background-image:linear-gradient(to right,white,orange);
+    background-image:linear-gradient(100deg,white 40% , orange 40%,orange 100%);
     display: flex;
-}
-#one{
-margin-left: 200%;
-position: absolute;
+    flex-direction: column;
 }
 h1{
     font-weight: bolder;
@@ -19,6 +16,18 @@ h1{
     max-width: 23px;
     
 }
+#one{
+margin-left: 400px;
+
+}
+.page1{
+    display: flex;
+}
+
+/* Did this with Brian */
+.our-menu {
+    color:orange
+}
 
 #fog{
     font-weight: 700;
@@ -27,8 +36,9 @@ h1{
     max-width: 88px;
 }
 .bot{
-    display:block;
+    /* display:block; */
     background:orange;
+    border-radius: 20px 25px 0px 25px;
     color: black;
     width: max-content;
     height: 10%;
@@ -42,11 +52,14 @@ h1{
     display: inline-flex;
     margin-left: 40%;
     color: black;
+    position: relative;
+    top: 1px;
 }
 .nav,li{
-    width: 100px;
+    /* width: 100px; */
     margin-left: 250px;
     padding: 10px;
+    list-style: none;
 }
     
 .middle{
@@ -95,6 +108,10 @@ p{
     border-radius: 20px;
     padding: 38px;
 }
+#pesa{
+    display: inline-flex;
+    
+}
 .down{
     background-color: whitesmoke;
     display: flex;
@@ -120,24 +137,31 @@ h4{
 .last{
     background-color: orange;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 #mm{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 1000;
     font-size: xx-large;
 }
-.sem{
-    display: flex;
-    flex-direction: row;
-    margin-left: 200px;
-}
 .semi{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin: 98px;
-    height: 80px;
+    /* padding: 85px; */
+    /* flex-direction: row; */
+    margin: 28px;
+    
 }
+.sem {
+/* padding: 38px; */
+/* flex-direction: row; */
+margin: 28px;
+
+}
+#pesa{
+    text-align: left;
+}
+
 .kulia{
     background-color: whitesmoke;
 }
@@ -155,7 +179,7 @@ h4{
 
 }
 .home{
-    margin-left: 18%;
+    margin-left: 48%;
     padding: 0;
 }
 #sam{

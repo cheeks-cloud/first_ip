@@ -1,43 +1,71 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%
 }
-.start{
-    background-image:linear-gradient(100deg,white 40% , orange 40%,orange 100%);
+
+.start {
+    background-image: linear-gradient(100deg, white 40%, orange 40%, orange 100%);
     display: flex;
     flex-direction: column;
 }
-h1{
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 54px;
+}
+
+.navo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.navo li{
+    padding: 88px;
+}
+
+h1 {
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 200px;
     margin-top: 20px;
     max-width: 23px;
-    
-}
-#one{
-margin-left: 400px;
 
 }
-.page1{
+
+#one {
+    margin-left: 400px;
+
+}
+
+.page1 {
     display: flex;
 }
 
 /* Did this with Brian */
 .our-menu {
-    color:orange
+    color: orange
 }
 
-#fog{
+#fog {
     font-weight: 700;
     margin-left: 420px;
     margin-top: 40px;
     max-width: 88px;
 }
-.bot{
+
+.bot {
     /* display:block; */
-    background:orange;
+    background: orange;
     border-radius: 20px 25px 0px 25px;
     color: black;
     width: max-content;
@@ -46,26 +74,27 @@ margin-left: 400px;
     padding: 10px;
     margin-left: 150px;
 }
-.nav{
+
+/* .nav{
     font-size: medium;
     font-weight: bold;
-    display: inline-flex;
-    margin-left: 40%;
+    display: flex;
+    align-items: center;
     color: black;
-    position: relative;
     top: 1px;
-}
-.nav,li{
+} */
+.nav,
+li {
     /* width: 100px; */
-    margin-left: 250px;
     padding: 10px;
     list-style: none;
 }
-    
-.middle{
+
+.middle {
     background-color: whitesmoke;
 }
-.fiesta{
+
+.fiesta {
     border-style: solid;
     border-radius: 20px;
     border-color: slategray;
@@ -75,32 +104,41 @@ margin-left: 400px;
     display: inline-block;
     height: 70%;
 }
-.go{
+
+.go {
     color: sandybrown;
 }
-.middle,h2{
-    color:rgb(78, 0, 0) ;
+
+.middle,
+h2 {
+    color: rgb(78, 0, 0);
 }
-.para{
+
+.para {
     text-align: center;
-    padding:20px;
+    padding: 20px;
     text-overflow: auto;
 }
-.menu{
-background-color: white;
+
+.menu {
+    background-color: white;
 }
-.menu,span{
+
+.menu,
+span {
     text-align: center;
     font-weight: bolder;
 
 }
-p{
+
+p {
     text-align: center;
 }
-.achieve{
+
+.achieve {
     text-align: center;
     display: inline-block;
-    border-color:gray;
+    border-color: gray;
     margin: 10px;
     height: 120%;
     width: 28%;
@@ -108,68 +146,77 @@ p{
     border-radius: 20px;
     padding: 38px;
 }
-#pesa{
+
+#pesa {
     display: inline-flex;
-    
+
 }
-.down{
+
+.down {
     background-color: whitesmoke;
     display: flex;
 
 }
-#best{
+
+#best {
     font-weight: bolder;
     font-size: x-larger;
     color: black;
     margin-left: 98px;
 }
-h4{
+
+h4 {
     margin-left: 18px;
     font-weight: bolder;
     margin-top: 80
 }
 
-.hard{
+.hard {}
 
-}
-.harder{
-}
-.last{
+.harder {}
+
+.last {
     background-color: orange;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-#mm{
+
+#mm {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 1000;
     font-size: xx-large;
 }
-.semi{
+
+.semi {
     /* padding: 85px; */
     /* flex-direction: row; */
     margin: 28px;
-    
-}
-.sem {
-/* padding: 38px; */
-/* flex-direction: row; */
-margin: 28px;
 
 }
-#pesa{
+
+.sem {
+    /* padding: 38px; */
+    /* flex-direction: row; */
+    margin: 28px;
+
+}
+
+#pesa {
     text-align: left;
 }
 
-.kulia{
+.kulia {
     background-color: whitesmoke;
 }
-.mans{
+
+.mans {
     margin-left: 450px;
     font-weight: 600;
 }
-#man{
+
+#man {
     font-weight: 900;
     font-size: 1.5em;
 }
@@ -178,25 +225,19 @@ margin: 28px;
     background-color: white;
 
 }
-.home{
+
+.home {
     margin-left: 48%;
     padding: 0;
 }
-#sam{
+
+#sam {
     text-align: right;
     margin-left: 1300px;
 }
 
-#ref{
+#ref {
     text-align: left;
     margin-bottom: 0;
     margin-right: 1300px;
 }
-
-
-
-
-
-
-
-
